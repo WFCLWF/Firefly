@@ -11,7 +11,8 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	showInNavbar: true,
 
 	// 使用方式："meting" 使用 Meting API，"local" 使用本地音乐列表
-	mode: "meting",
+	// mode: "meting",
+	mode: "local",
 
 	// 默认音量 (0-1)
 	volume: 0.7,
@@ -49,11 +50,18 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	// lrc: "[00:00.00]歌词内容...",
 	local: {
 		playlist: [
+			// {
+			// 	name: "使一颗心免于哀伤",
+			// 	artist: "知更鸟 / HOYO-MiX / Chevy",
+			// 	url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
+			// 	cover: "/assets/music/cover/109951169585655912.webp",
+			// 	lrc: "",
+			// },
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
-				cover: "/assets/music/cover/109951169585655912.webp",
+				name: "团子大家族",
+				artist: "CL",
+				url: "/assets/music/团子大家族.flac",
+				cover: "/assets/music/cover/1.jpg",
 				lrc: "",
 			},
 		],
