@@ -60,7 +60,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 			{
 				name: "团子大家族",
 				artist: "CL",
-				url: "/assets/music/团子大家族.flac",
+				url: "/assets/music/团子大家族.mp4",
 				cover: "/assets/music/cover/1.jpg",
 				lrc: "",
 			},
